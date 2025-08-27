@@ -34,30 +34,45 @@ export const profile = {
   },
 
   skills: [
+    // Languages
+    "C",
+    "C++",
+    "JavaScript",
+    "Python (Basic)",
+    "SQL",
     "HTML",
     "CSS",
-    "JavaScript",
+    
+    // Developer Tools
+    "Git/GitHub",
+    "Postman",
+    "VS Code",
+    "Linux Shell",
+    "PgAdmin",
+    "MongoDB Compass",
+    
+    // Frameworks
+    "React.js",
+    "Node.js",
+    "Express.js",
     "Tailwind CSS",
-    "ReactJS",
-    "Vite",
-    "Node JS",
     "Bootstrap",
+    "Vite",
+    
+    // Databases & Cloud
+    "MongoDB",
+    "PostgreSQL",
+    "Firebase",
+    
+    // Advanced Skills
     "Data Structures & Algorithms (DSA)",
     "MERN Stack Development",
-    "MongoDB",
-    "Express.js",
-    "Next.js",
-    "TypeScript",
-    "PostgreSQL",
     "Database Management System (DBMS)",
     "Computer Networks",
-    "Git & GitHub",
     "RESTful APIs",
     "JWT Authentication",
     "Problem Solving",
     "System Design",
-    "C/C++",
-    "Python",
   ],
 };
 
