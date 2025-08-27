@@ -223,6 +223,77 @@ const AboutPage = () => {
               </span>
             </h2>
 
+            {/* Skills Section */}
+            <div
+              className="space-y-6 pb-6"
+              data-aos="fade-right"
+              data-aos-duration="1400"
+            >
+              <h3 className="text-xl sm:text-2xl font-semibold text-gray-200">
+                Technical Skills
+              </h3>
+              
+              {/* Languages */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-medium text-[#a855f7]">Languages</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["C", "C++", "JavaScript", "Python (Basic)", "SQL", "HTML", "CSS", "Tailwind"].map((skill, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:bg-white/10 transition-all duration-300"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Developer Tools */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-medium text-[#a855f7]">Developer Tools</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["Git/GitHub", "Postman", "VS Code", "Linux Shell", "PgAdmin", "MongoDB Compass"].map((skill, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:bg-white/10 transition-all duration-300"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Frameworks */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-medium text-[#a855f7]">Frameworks</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["React.js", "Node.js", "Express.js", "Tailwind CSS"].map((skill, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:bg-white/10 transition-all duration-300"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Databases & Cloud */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-medium text-[#a855f7]">Databases & Cloud</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["MongoDB", "PostgreSQL", "Firebase"].map((skill, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:bg-white/10 transition-all duration-300"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             <p
               className="text-base sm:text-lg lg:text-xl text-gray-400 leading-relaxed text-justify pb-4 sm:pb-0"
               data-aos="fade-right"
