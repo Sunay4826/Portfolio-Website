@@ -6,7 +6,7 @@ export const certificates = [
     title: "0-100 Full Stack Web Development Course",
     issuer: "100xDevs",
     date: "2025-08-27",
-    Img: "./certificates/Web_D.png",
+    Img: "/certificates/Web_D.png",
   },
 ];
 
