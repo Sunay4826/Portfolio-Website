@@ -1,113 +1,121 @@
-# Portfolio V5  
-Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+# Sunay Revad - Portfolio Website
 
-**Tech Stack used:**  
-- ReactJS  
-- Tailwind CSS  
-- AOS  
-- Firebase  
-- Framer Motion  
-- Lucide  
-- Material UI  
-- SweetAlert2  
+A modern, responsive portfolio website showcasing my skills as a MERN Stack Developer and DSA enthusiast.
 
-**Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
+## 🚀 Live Demo
 
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
+[View Portfolio](https://sunay4826.github.io/Portfolio/)
+
+## 👨‍💻 About Me
+
+- **Name**: Sunay Revad
+- **Role**: MERN Stack Developer • DSA Enthusiast
+- **Education**: Undergraduate at DAIICT majoring in ICT
+- **Location**: Gandhinagar, Gujarat, India
+- **Email**: sunayrevad2005@gmail.com
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, HTML5, CSS3, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Other**: JavaScript, C/C++, Python
+- **Tools**: Git, GitHub, Vite
+
+## ✨ Features
+
+- **Responsive Design**: Works perfectly on all devices
+- **Modern UI/UX**: Clean, professional interface with smooth animations
+- **Project Showcase**: Display of personal projects with live demos
+- **Certificate Gallery**: Professional achievements and certifications
+- **Contact Form**: Direct email integration
+- **Social Links**: LinkedIn and GitHub integration
+- **Dark Theme**: Elegant dark color scheme
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+├── Pages/              # Main page components
+├── data/               # Profile, projects, and certificates data
+├── assets/             # Static assets
+└── firebase.js         # Firebase configuration
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+1. Clone the repository
+```bash
+git clone https://github.com/Sunay4826/Portfolio.git
+cd Portfolio
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run development server
+```bash
+npm run dev
+```
+
+4. Build for production
+```bash
+npm run build
+```
+
+## 📝 Customization
+
+### Update Personal Information
+Edit `src/data/profile.js`:
+- Name, role, bio
+- Social media links
+- Skills and expertise
+
+### Add Projects
+Edit `src/data/projects.js`:
+- Project title and description
+- Tech stack used
+- Live demo and GitHub links
+- Add project images to `public/projects/`
+
+### Add Certificates
+Edit `src/data/certificates.js`:
+- Certificate details
+- Add certificate images to `public/certificates/`
+
+## 🌐 Deployment
+
+This portfolio is automatically deployed to GitHub Pages using GitHub Actions.
+
+### Manual Deployment
+1. Build the project: `npm run build`
+2. Deploy the `dist/` folder to your hosting service
+
+### GitHub Pages Setup
+1. Go to repository Settings → Pages
+2. Source: Deploy from a branch
+3. Branch: `gh-pages`
+4. Folder: `/ (root)`
+
+## 📱 Contact
+
+- **Email**: sunayrevad2005@gmail.com
+- **LinkedIn**: [Sunay Revad](https://www.linkedin.com/in/sunay-revad-564a22343/)
+- **GitHub**: [@Sunay4826](https://github.com/Sunay4826)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
 
 ---
 
-# Tutorial: Running the Project  
-
-Here’s a simple guide to run this project.  
-
-## Prerequisites  
-
-Ensure that you have already installed:  
-- **Node.js**  
-
----
-
-## Steps to Run the Project  
-
-1. **Download this project:**  
-
-   ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
-   ```  
-
-2. **Install all dependencies:**  
-
-   ```bash  
-   npm install  
-   ```  
-   Or use:  
-
-   ```bash  
-   npm install --legacy-peer-deps  
-   ```  
-
-3. **Run the project:**  
-
-   ```bash  
-   npm run dev  
-   ```  
-
-4. **Open in browser:**  
-
-   Access the application through the link displayed in your terminal.  
-
----
-
-## Creating a Production Build  
-
-To create a production-ready build:  
-
-1. Run the build command:  
-
-   ```bash  
-   npm run build  
-   ```  
-
-2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
-
----
-
-## Notes  
-
-If you encounter issues while running the project, ensure that:  
-- Node.js is correctly installed.  
-- You’re in the correct project directory.  
-- All dependencies are installed without errors.  
-
----
-
-## Firebase Configuration  
-
-To configure Firebase for this project, follow these steps:  
-
-1. **Add Firebase to the Project:**  
-   - Go to the [Firebase Console](https://console.firebase.google.com/).  
-   - Create a new project or use an existing one.  
-
-2. **Enable Firestore Database:**  
-   - Create a database.  
-
-3. **Go to Project Settings:**  
-   - Click the settings icon.  
-   - Copy the Firebase configuration.  
-
-4. **Go to Rules:**  
-   - Set the rules to `true`.  
-
-5. **Adjust the Collection Structure:**  
-   - Set up the collections as shown in the following images:  
-
-   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
-   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
-
-6. **Update `firebase.js` and `firebase-comment.js` Files:**  
-   - Replace the `firebaseConfig` content with your Firebase configuration.  
+**Built with ❤️ by Sunay Revad**
 
