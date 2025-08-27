@@ -51,11 +51,7 @@ const MainTitle = memo(() => (
   </div>
 ));
 
-const TechStack = memo(({ tech }) => (
-  <div className="px-4 py-2 hidden sm:block rounded-full bg-white/5 backdrop-blur-sm border border-white/10 text-sm text-gray-300 hover:bg-white/10 transition-colors">
-    {tech}
-  </div>
-));
+
 
 const CTAButton = memo(({ href, text, icon: Icon }) => (
   <a href={href}>
@@ -96,7 +92,6 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = [profile.role || "MERN Stack Developer", "Tech Enthusiast"];
-const TECH_STACK = profile.skills && profile.skills.length ? profile.skills : ["React", "JavaScript", "Tailwind CSS"];
 const SOCIAL_LINKS = [
   profile.socials?.github ? { icon: Github, link: profile.socials.github } : null,
   profile.socials?.linkedin ? { icon: Linkedin, link: profile.socials.linkedin } : null,
@@ -208,16 +203,7 @@ const Home = () => {
 
                 {/* Description removed as requested */}
 
-                {/* Tech Stack */}
-                <div
-                  className="flex flex-wrap gap-3 justify-start"
-                  data-aos="fade-up"
-                  data-aos-delay="1200"
-                >
-                  {TECH_STACK.map((tech, index) => (
-                    <TechStack key={index} tech={tech} />
-                  ))}
-                </div>
+
 
                 {/* CTA Buttons */}
                 <div
