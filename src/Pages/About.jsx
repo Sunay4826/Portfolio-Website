@@ -11,6 +11,8 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 import profile from "../data/profile";
+import localProjects from "../data/projects";
+import localCertificates from "../data/certificates";
 
 // Memoized Components
 const Header = memo(() => (
@@ -132,6 +134,10 @@ const AboutPage = () => {
       localStorage.getItem("certificates") || "[]"
     );
 
+    // Prefer local data files when present; fallback to values from localStorage
+    const effectiveProjects = (localProjects && localProjects.length) ? localProjects : storedProjects;
+    const effectiveCertificates = (localCertificates && localCertificates.length) ? localCertificates : storedCertificates;
+
     const startDate = new Date("2021-11-06");
     const today = new Date();
     const experience =
@@ -143,8 +149,8 @@ const AboutPage = () => {
         : 0);
 
     return {
-      totalProjects: storedProjects.length,
-      totalCertificates: storedCertificates.length,
+      totalProjects: effectiveProjects.length,
+      totalCertificates: effectiveCertificates.length,
       YearExperience: experience,
     };
   }, []);
