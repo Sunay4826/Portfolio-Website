@@ -34,7 +34,7 @@ export const projects = [
     Title: "CWS_DBMS - Commonwealth Games Database Management System",
     Description:
       "A revolutionary approach to managing the Commonwealth Games through a comprehensive database system that streamlines operations, enhances user experience, and elevates the overall event experience.",
-    Img: "/Portfolio-Website/projects/cws-dbms.png",
+    Img: "https://sunay4826.github.io/Portfolio-Website/projects/cws-dbms.png",
     Link: "https://github.com/Sunay4826/CWS_DBMS",
     TechStack: ["Database Management", "System Design"],
   },
