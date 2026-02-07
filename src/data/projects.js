@@ -15,10 +15,19 @@ export const projects = [
     id: "ai-finance-platform",
     Title: "AI Finance Platform",
     Description:
-      "AI-powered finance dashboard for account insights, tracking, and analytics.",
-    Img: "/Portfolio-Website/projects/todo-app.png",
+      "AI-powered finance dashboard with insights, tracking, and analytics.",
+    Img: "/Portfolio-Website/projects/ai-finance-platform.jpeg",
     Link: "https://ai-finance-platform-imp.vercel.app/account/9ad844c9-fd1e-4d56-8c7f-fb14da706fbe",
-    TechStack: ["React", "Vercel"],
+    Github: "https://github.com/Sunay4826/AI-finance-platform.git",
+    TechStack: ["Next.js", "Clerk", "Prisma", "PostgreSQL", "Tailwind CSS", "OpenAI", "Vercel"],
+    Features: [
+      "User authentication with Clerk.",
+      "Transaction tracking and management.",
+      "Budget planning and monitoring.",
+      "AI-powered financial insights.",
+      "Responsive UI with Tailwind CSS.",
+      "Prisma + PostgreSQL for data layer.",
+    ],
   },
   {
     id: "remote-blogging-platform",
