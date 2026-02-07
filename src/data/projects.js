@@ -17,7 +17,7 @@ export const projects = [
     Description:
       "AI-powered finance dashboard with insights, tracking, and analytics.",
     Img: "/Portfolio-Website/projects/ai-finance-platform.jpeg",
-    Link: "https://ai-finance-platform-imp.vercel.app/account/9ad844c9-fd1e-4d56-8c7f-fb14da706fbe",
+    Link: "https://ai-finance-platform-3qj9.vercel.app/",
     Github: "https://github.com/Sunay4826/AI-finance-platform.git",
     TechStack: ["Next.js", "Clerk", "Prisma", "PostgreSQL", "Tailwind CSS", "OpenAI", "Vercel"],
     Features: [
@@ -36,7 +36,7 @@ export const projects = [
       "Full-stack blogging platform with posts, comments, likes, bookmarks, and tags.",
     Img: "/Portfolio-Website/projects/ChatGPT Image Feb 8, 2026 at 01_26_08 AM.png",
     Link: "https://blog-sbyr.vercel.app/blogs",
-    Github: "Private",
+    Github: "https://github.com/Sunay4826/Blog",
     TechStack: [
       "React",
       "Tailwind CSS",
