@@ -17,7 +17,7 @@ export const projects = [
     Description:
       "AI-powered finance dashboard with insights, tracking, and analytics.",
     Img: "/Portfolio-Website/projects/ai-finance-platform.jpeg",
-    Link: "https://ai-finance-platform-3qj9.vercel.app/",
+    Link: "https://ai-finance-platform-imp.vercel.app/",
     Github: "https://github.com/Sunay4826/AI-finance-platform.git",
     TechStack: ["Next.js", "Clerk", "Prisma", "PostgreSQL", "Tailwind CSS", "OpenAI", "Vercel"],
     Features: [
