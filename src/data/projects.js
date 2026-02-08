@@ -74,11 +74,11 @@ export const projects = [
     TechStack: ["Python", "Streamlit"],
   },
   {
-    id: "cws-dbms",
-    Title: "CWS_DBMS - Commonwealth Games Database Management System",
+    id: "cwg-dbms",
+    Title: "CWG_DBMS",
     Description:
       "A revolutionary approach to managing the Commonwealth Games through a comprehensive database system that streamlines operations, enhances user experience, and elevates the overall event experience.",
-    Img: "/Portfolio-Website/projects/cws-dbms.png",
+    Img: "/Portfolio-Website/projects/Gemini_Generated_Image_dxutl3dxutl3dxut.png",
     Link: "https://github.com/Sunay4826/CWS_DBMS",
     TechStack: ["Database Management", "System Design"],
   },
