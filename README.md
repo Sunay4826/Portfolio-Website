@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills as a MERN Stack Deve
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://sunay4826.github.io/Portfolio/)
+[View Portfolio](https://sunay4826.github.io/Portfolio-Website/)
 
 ## 👨‍💻 About Me
 
